@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.btn1 {
+  @apply text-kalas5 font-fonty font-bold text-sm tracking-smallest bg-kalas4 w-40 h-12;
+}
+
+.btn2 {
+  @apply text-kalas6 font-fonty font-bold text-sm tracking-smallest bg-kalas5 w-40 h-12 border border-kalas1;
+}
+.btn3 {
+  @apply text-kalas8 font-fonty font-bold text-sm tracking-smallest border-0;
+}
+.btn4 {
+  @apply text-kalas5 font-fonty font-bold text-sm tracking-smallest bg-kalas4 w-40 h-12;
+}
+.btn5 {
+  @apply text-kalas5 font-fonty font-bold text-sm tracking-smallest bg-kalas6 w-40 h-12;
+}
+
+.btn6 {
+  @apply text-kalas10 font-fonty font-bold text-sm tracking-smallest border-0;
+}
+.path1 {
+  @apply w-1.5 h-2.5 text-kalas ml-1.5;
+}
+.mask1 {
+  @apply border-0 w-80 h-48 bg-kalas2;
+}
+>>>>>>> 64f75de (first commit)
