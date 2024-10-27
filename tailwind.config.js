@@ -7,23 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-<<<<<<< HEAD
-        "kalas1": "#D87D4A",
-        "kalas2": "#101010",
-        "kalas3": "#F1F1F1",
-        "kalas4": "#FAFAFA",
-        "kalas5": "#FBAF85",
-        "kalas6": "#141414",
-        "kalas7": "#0E0E0E",
-        "kalas8": "#979797",
-        "white": "#FFFFFF",
-        "black": "#000000",
-      }
-    },
-    fontFamily: {
-      fonty:["manrope"]
-    }
-=======
+
         kalas: '#D87D4A',
         kalas1: '#101010',
         kalas2: '#F1F1F1',
@@ -64,7 +48,7 @@ export default {
         big:'700px'
       }
     },
->>>>>>> 64f75de (first commit)
+
   },
   plugins: [],
 }
