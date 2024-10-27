@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // PAGES
 import Home from "./Pages/Home.jsx";
 import ShopCategory from "./Pages/ShopCategory.jsx";
-import Product from "./Pages/Product.jsx";
 import Cart from "./Pages/Cart.jsx";
 import Checkout from "./Pages/Checkout.jsx";
 import CheckoutFinal from "./Pages/CheckoutFinal.jsx";
@@ -31,10 +30,6 @@ function App() {
               path="/Earphones"
               element={<ShopCategory category="earphones" />}
             />
-            <Route path="/product" element={<Product />}>
-              <Route path=":productId" element={<Product />} />
-            </Route>
-
             <Route path=":cart" element={<Cart />} />
             <Route path=":checkout" element={<Checkout />} />
             <Route path=":checkoutFinal" element={<CheckoutFinal />} />
